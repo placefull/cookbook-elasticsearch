@@ -16,8 +16,8 @@ node.normal[:elasticsearch]    = DeepMerge.merge(node.normal[:elasticsearch].to_
 
 # === VERSION AND LOCATION
 #
-default.elasticsearch[:version]       = "1.5.2"
-default.elasticsearch[:host]          = "http://download.elasticsearch.org"
+default.elasticsearch[:version]       = "2.4.1"
+default.elasticsearch[:host]          = "https://download.elasticsearch.co"
 default.elasticsearch[:repository]    = "elasticsearch/elasticsearch"
 default.elasticsearch[:filename]      = nil
 default.elasticsearch[:download_url]  = nil
